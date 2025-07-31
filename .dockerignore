@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+.venv
+venv
+.vscode
+.DS_Store
+*.sqlite3
+celerybeat-schedule

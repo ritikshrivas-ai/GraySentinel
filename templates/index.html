@@ -1,0 +1,56 @@
+<!-- graysentinel/templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8 text-center">
+        <h1 class="display-4 mb-4">Enterprise OSINT Automation</h1>
+        <p class="lead mb-4">GraySentinel is a comprehensive OSINT framework for cybersecurity professionals, integrating multiple intelligence sources into a single platform.</p>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Key Features</h5>
+                <div class="row mt-4">
+                    <div class="col-md-3 mb-3">
+                        <div class="card dashboard-card h-100">
+                            <div class="card-body">
+                                <h6>Email Intelligence</h6>
+                                <p class="small">Breach detection and domain analysis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card dashboard-card h-100">
+                            <div class="card-body">
+                                <h6>Username Recon</h6>
+                                <p class="small">Cross-platform presence detection</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card dashboard-card h-100">
+                            <div class="card-body">
+                                <h6>Social Media</h6>
+                                <p class="small">Deep profile analysis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card dashboard-card h-100">
+                            <div class="card-body">
+                                <h6>Dark Web</h6>
+                                <p class="small">Tor network intelligence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="/login" class="btn btn-primary btn-lg px-4">Get Started</a>
+            <a href="#features" class="btn btn-outline-secondary btn-lg px-4">Learn More</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

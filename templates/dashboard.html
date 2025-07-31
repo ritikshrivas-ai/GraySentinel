@@ -1,0 +1,104 @@
+<!-- graysentinel/templates/dashboard.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="my-4">OSINT Dashboard</h1>
+    
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0">New Scan</h5>
+        </div>
+        <div class="card-body">
+            <form id="scanForm">
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label class="form-label">Scan Type</label>
+                        <select class="form-select" id="scanType" required>
+                            <option value="">Select scan type</option>
+                            <option value="email">Email Investigation</option>
+                            <option value="username">Username Recon</option>
+                            <option value="social">Social Media Analysis</option>
+                            <option value="darkweb">Dark Web Search</option>
+                            <option value="image">Image Matching</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <label class="form-label">Target</label>
+                        <input type="text" class="form-control" id="target" placeholder="Email, username, etc." required>
+                    </div>
+                    <div class="col-md-2 mb-3 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary w-100">Start Scan</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="card mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Recent Scans</h5>
+        </div>
+        <div class="card-body">
+            <div id="scanProgress" class="d-none mb-3">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                         role="progressbar" style="width: 0%"></div>
+                </div>
+                <div class="text-center mt-2" id="progressText">Initializing scan...</div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Target</th>
+                            <th>Type</th>
+                            <th>Risk Score</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for scan in scans %}
+                        <tr>
+                            <td>{{ scan.id }}</td>
+                            <td>{{ scan.target }}</td>
+                            <td>{{ scan.scan_type }}</td>
+                            <td>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar 
+                                        {% if scan.risk_score < 40 %}bg-success
+                                        {% elif scan.risk_score < 70 %}bg-warning
+                                        {% else %}bg-danger{% endif %}" 
+                                        role="progressbar" 
+                                        style="width: {{ scan.risk_score }}%">
+                                        {{ scan.risk_score }}%
+                                    </div>
+                                </div>
+                            </td>
+                            <td>{{ scan.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                            <td>
+                                <a href="/report/{{ scan.id }}" class="btn btn-sm btn-outline-primary">Report</a>
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="6" class="text-center">No scans found</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card d-none" id="resultsCard">
+        <div class="card-header">
+            <h5 class="mb-0">Scan Results</h5>
+        </div>
+        <div class="card-body" id="resultsBody"></div>
+    </div>
+</div>
+{% endblock %}

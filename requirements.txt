@@ -1,0 +1,19 @@
+# graysentinel/requirements.txt
+Flask==3.0.0
+Flask-WTF==1.2.1
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+celery==5.3.4
+redis==5.0.0
+gunicorn==21.2.0
+fpdf2==2.7.7
+spacy==3.7.2
+textblob==0.17.1
+snscrape==0.6.2.20240329
+instaloader==4.10.1
+Pillow==10.2.0
+imagehash==4.3.1
+requests==2.31.0
+holehe==0.5.7
+python-dotenv==1.0.0
