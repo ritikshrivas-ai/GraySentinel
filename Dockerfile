@@ -36,6 +36,9 @@ RUN curl -L https://github.com/WebBreacher/toutatis/archive/refs/heads/master.zi
     curl -L https://github.com/megadose/Mr.Holmes/archive/refs/heads/master.zip -o mrholmes.zip && \
     unzip mrholmes.zip && mv Mr.Holmes-master /app/MrHolmes && rm mrholmes.zip
 
+# Download spaCy model
+RUN python -m spacy download en_core_web_sm
+
 # Expose port
 EXPOSE 5000
 
