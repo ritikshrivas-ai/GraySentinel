@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends git curl && \
+    apt-get install -y --no-install-recommends curl unzip && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy app files
@@ -28,10 +28,13 @@ RUN pip install --upgrade pip && \
         flask-wtf \
         sqlalchemy
 
-# Clone external OSINT tools
-RUN git clone https://github.com/WebBreacher/toutatis /app/toutatis && \
-    git clone https://github.com/megadose/OnionSearch /app/OnionSearch && \
-    git clone https://github.com/megadose/Mr.Holmes /app/MrHolmes
+# Download and extract external OSINT tools
+RUN curl -L https://github.com/WebBreacher/toutatis/archive/refs/heads/master.zip -o toutatis.zip && \
+    unzip toutatis.zip && mv toutatis-master /app/toutatis && rm toutatis.zip && \
+    curl -L https://github.com/megadose/OnionSearch/archive/refs/heads/master.zip -o onionsearch.zip && \
+    unzip onionsearch.zip && mv OnionSearch-master /app/OnionSearch && rm onionsearch.zip && \
+    curl -L https://github.com/megadose/Mr.Holmes/archive/refs/heads/master.zip -o mrholmes.zip && \
+    unzip mrholmes.zip && mv Mr.Holmes-master /app/MrHolmes && rm mrholmes.zip
 
 # Expose port
 EXPOSE 5000
