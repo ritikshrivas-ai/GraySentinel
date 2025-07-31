@@ -8,7 +8,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends curl unzip && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy app files
+# Copy application files
 COPY . .
 
 # Install Python dependencies
@@ -36,11 +36,11 @@ RUN curl -L https://github.com/WebBreacher/toutatis/archive/refs/heads/master.zi
     curl -L https://github.com/megadose/Mr.Holmes/archive/refs/heads/master.zip -o mrholmes.zip && \
     unzip mrholmes.zip && mv Mr.Holmes-master /app/MrHolmes && rm mrholmes.zip
 
-# Download spaCy model
+# Download spaCy language model
 RUN python -m spacy download en_core_web_sm
 
 # Expose port
 EXPOSE 5000
 
-# Run app with Gunicorn
+# Start the app with Gunicorn
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:create_app()"]
