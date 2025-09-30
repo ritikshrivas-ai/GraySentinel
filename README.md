@@ -218,9 +218,3 @@ GraySentinel is strictly for educational and ethical research purposes only. The
 
 
 GraySentinel isn't just another tool in your arsenal. It's a mindset — a way of conducting intelligence operations that's fast, collaborative, and transparent. Whether you're a penetration tester, a SOC analyst, a forensic investigator, or simply a curious hacker, GraySentinel equips you with the weapons of digital truth.
-
-
-
-Welcome to the revolution.
-
-```
