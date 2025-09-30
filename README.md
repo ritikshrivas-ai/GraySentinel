@@ -119,3 +119,108 @@ It represents a movement where **hackers, researchers, and professionals** colla
 ```bash
 git clone https://github.com/<your-username>/GraySentinel.git
 cd GraySentinel
+```
+
+### 2. Install Requirements
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+### 3. Run CLI Version (Termux / Kali)
+
+
+
+```bash
+
+python osint.py
+
+```
+
+
+
+### 4. Run Flask Web Dashboard
+
+
+
+```bash
+
+python app.py
+
+```
+
+
+
+Now open `http://127.0.0.1:5000` in your browser.
+
+
+
+---
+
+
+
+## 🧩 Roadmap
+
+
+
+- Add AI-based NLP correlation engine (owner prediction).
+
+- Expand Dark Web integrations.
+
+- Multi-language support for regex patterns (Indian + Global).
+
+- Plugin marketplace for community-contributed modules.
+
+- Real-time collaboration dashboard.
+
+
+
+---
+
+
+
+## ⚠️ Legal Disclaimer
+
+
+
+GraySentinel is strictly for educational and ethical research purposes only. The author assumes no responsibility for misuse. Ensure you have legal authorization before conducting reconnaissance or scanning.
+
+
+
+---
+
+
+
+## ✨ Credits
+
+
+
+- **Concept & Development:** Ritik Shrivas
+
+- **Community:** Open-source Intelligence Hackers & Researchers
+
+- **Inspirations:** Military Intelligence War Rooms, Asymmetric Cyber Warfare Philosophy
+
+
+
+---
+
+
+
+## 📌 Final Words
+
+
+
+GraySentinel isn't just another tool in your arsenal. It's a mindset — a way of conducting intelligence operations that's fast, collaborative, and transparent. Whether you're a penetration tester, a SOC analyst, a forensic investigator, or simply a curious hacker, GraySentinel equips you with the weapons of digital truth.
+
+
+
+Welcome to the revolution.
+
+```
