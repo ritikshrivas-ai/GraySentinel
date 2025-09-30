@@ -1,4 +1,4 @@
-# 🛰️ GraySentinel — Military-Grade OSINT & Cyber Defense Toolkit  
+# 🛰️ GraySentinel: Military-Grade OSINT & Cyber Defense Toolkit  
 
 **Author:** Ritik Shrivas  
 **Mission:** Redefining Cybersecurity Intelligence through AI, Regex, and Real-Time Reconnaissance.  
