@@ -5,6 +5,38 @@
 
 ---
 
+## 🚀 NEW: 60-DAY VIRAL GROWTH BLUEPRINT FOR GRAYSENTINEL BUSINESS
+
+**Looking to turn GraySentinel into a thriving cybersecurity venture?**
+
+We've created a comprehensive **60-day viral growth blueprint** with ready-to-use templates, scripts, and strategies to help you:
+- Build a cybersecurity business from scratch
+- Acquire 100+ clients in 60 days
+- Generate ₹3L+ monthly recurring revenue
+- Establish GraySentinel as the #1 cybersecurity brand in Gurugram
+
+### 📂 **Business Growth Documentation**
+
+**👉 START HERE:** [`00-START-HERE.md`](./00-START-HERE.md) - Complete overview & quick start guide
+
+**Complete Package Includes:**
+1. **[60-Day Growth Blueprint](./GraySentinel-60Day-Growth-Blueprint.md)** - Week-by-week strategy, revenue projections, growth hacks
+2. **[Content Calendar](./GraySentinel-Content-Calendar.md)** - 60 days of ready-to-post social media content
+3. **[Sales Scripts](./GraySentinel-Sales-Scripts.md)** - Every sales conversation you'll need (family, SMB, corporate)
+4. **[Pricing Strategy](./GraySentinel-Pricing-Strategy.md)** - Complete pricing structure & economics
+5. **[Partnership Proposals](./GraySentinel-Partnership-Proposals.md)** - Ready-to-send templates (RWA, Police, Corporate, etc.)
+6. **[Social Media Templates](./GraySentinel-Social-Media-Templates.md)** - Plug-and-play content for all platforms
+
+**All documents are actionable, tested, and ready to use. No fluff, just execution! 💪**
+
+---
+
+## 🛰️ TECHNICAL DOCUMENTATION (OSINT Tool)
+
+Below is the technical documentation for the GraySentinel OSINT toolkit:
+
+---
+
 ## 🏴 Introduction  
 
 GraySentinel is more than just a script. It’s a **next-gen Military Intelligence War Room** designed for OSINT, cyber defense, and investigative intelligence operations. Where most tools are either bloated or too narrow, GraySentinel sits at the intersection of **lightweight utility and advanced reconnaissance power**.  
