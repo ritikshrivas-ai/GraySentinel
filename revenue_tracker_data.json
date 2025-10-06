@@ -1,0 +1,394 @@
+{
+  "leads": [
+    {
+      "id": "lead_1_20251006_191955",
+      "name": "Rajesh Kumar",
+      "contact": "9876543210",
+      "source": "LinkedIn",
+      "status": "closed_won",
+      "service_interest": "family_plan",
+      "created_date": "2025-10-06T19:19:55.604108",
+      "last_contact": "2025-10-06T19:19:55.604175",
+      "notes": "Interested in family protection\n2025-10-06 19:19: Converted to paying client",
+      "estimated_value": 999,
+      "probability": 70
+    },
+    {
+      "id": "lead_2_20251006_191955",
+      "name": "Priya Sharma",
+      "contact": "9876543211",
+      "source": "Instagram",
+      "status": "closed_won",
+      "service_interest": "smb_plan",
+      "created_date": "2025-10-06T19:19:55.604135",
+      "last_contact": "2025-10-06T19:19:55.604194",
+      "notes": "Small business owner\n2025-10-06 19:19: Converted to paying client",
+      "estimated_value": 4999,
+      "probability": 60
+    },
+    {
+      "id": "lead_3_20251006_191955",
+      "name": "Amit Singh",
+      "contact": "9876543212",
+      "source": "WhatsApp",
+      "status": "closed_won",
+      "service_interest": "fraud_recovery",
+      "created_date": "2025-10-06T19:19:55.604149",
+      "last_contact": "2025-10-06T19:19:55.604209",
+      "notes": "Victim of UPI fraud\n2025-10-06 19:19: Converted to paying client",
+      "estimated_value": 2500,
+      "probability": 90
+    },
+    {
+      "id": "lead_4_20251006_191955",
+      "name": "Sneha Patel",
+      "contact": "9876543213",
+      "source": "Referral",
+      "status": "new_lead",
+      "service_interest": "corporate_workshop",
+      "created_date": "2025-10-06T19:19:55.604159",
+      "last_contact": "2025-10-06T19:19:55.604159",
+      "notes": "HR Manager",
+      "estimated_value": 25000,
+      "probability": 40
+    },
+    {
+      "id": "lead_5_20251006_191955",
+      "name": "Vikram Gupta",
+      "contact": "9876543214",
+      "source": "Google My Business",
+      "status": "new_lead",
+      "service_interest": "family_plan",
+      "created_date": "2025-10-06T19:19:55.604167",
+      "last_contact": "2025-10-06T19:19:55.604167",
+      "notes": "Looking for cybersecurity",
+      "estimated_value": 999,
+      "probability": 50
+    }
+  ],
+  "revenues": [
+    {
+      "id": "rev_1_20251006_191955",
+      "lead_id": "lead_1_20251006_191955",
+      "service_tier": "family_plan",
+      "amount": 999,
+      "date": "2025-10-06T19:19:55.604186",
+      "status": "paid",
+      "payment_method": "UPI",
+      "notes": "Monthly subscription"
+    },
+    {
+      "id": "rev_2_20251006_191955",
+      "lead_id": "lead_2_20251006_191955",
+      "service_tier": "smb_plan",
+      "amount": 4999,
+      "date": "2025-10-06T19:19:55.604203",
+      "status": "paid",
+      "payment_method": "UPI",
+      "notes": "Monthly subscription"
+    },
+    {
+      "id": "rev_3_20251006_191955",
+      "lead_id": "lead_3_20251006_191955",
+      "service_tier": "fraud_recovery",
+      "amount": 2500,
+      "date": "2025-10-06T19:19:55.604217",
+      "status": "paid",
+      "payment_method": "UPI",
+      "notes": "Monthly subscription"
+    }
+  ],
+  "weekly_goals": [
+    {
+      "week": 1,
+      "leads_target": 250,
+      "revenue_target": 0,
+      "clients_target": 0,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 2,
+      "leads_target": 500,
+      "revenue_target": 25000,
+      "clients_target": 5,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 3,
+      "leads_target": 750,
+      "revenue_target": 75000,
+      "clients_target": 15,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 4,
+      "leads_target": 1000,
+      "revenue_target": 150000,
+      "clients_target": 25,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 5,
+      "leads_target": 1250,
+      "revenue_target": 200000,
+      "clients_target": 40,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 6,
+      "leads_target": 1500,
+      "revenue_target": 250000,
+      "clients_target": 50,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 7,
+      "leads_target": 1750,
+      "revenue_target": 300000,
+      "clients_target": 75,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0
+    },
+    {
+      "week": 8,
+      "leads_target": 2000,
+      "revenue_target": 400000,
+      "clients_target": 100,
+      "leads_actual": 0,
+      "revenue_actual": 0,
+      "clients_actual": 0,
+      "completion_percentage": 0.0
+    }
+  ],
+  "dashboard_data": {
+    "lead_analytics": {
+      "total_leads": 5,
+      "new_leads": 2,
+      "qualified_leads": 0,
+      "closed_won": 3,
+      "closed_lost": 0,
+      "conversion_rate": 60.0,
+      "qualification_rate": 0.0,
+      "sources": {
+        "LinkedIn": 1,
+        "Instagram": 1,
+        "WhatsApp": 1,
+        "Referral": 1,
+        "Google My Business": 1
+      },
+      "service_interest": {
+        "family_plan": 2,
+        "smb_plan": 1,
+        "fraud_recovery": 1,
+        "corporate_workshop": 1
+      }
+    },
+    "revenue_analytics": {
+      "total_revenue": 8498,
+      "monthly_revenue": 8498,
+      "monthly_recurring_revenue": 5998,
+      "service_revenue": {
+        "family_plan": 999,
+        "smb_plan": 4999,
+        "fraud_recovery": 2500
+      },
+      "payment_methods": {
+        "UPI": 8498
+      },
+      "average_deal_size": 2832.6666666666665
+    },
+    "weekly_progress": [
+      {
+        "week": 1,
+        "leads_target": 250,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 0,
+        "revenue_actual": 0,
+        "revenue_percentage": 0,
+        "clients_target": 0,
+        "clients_actual": 0,
+        "clients_percentage": 0,
+        "overall_completion": 0
+      },
+      {
+        "week": 2,
+        "leads_target": 500,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 25000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 5,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 3,
+        "leads_target": 750,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 75000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 15,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 4,
+        "leads_target": 1000,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 150000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 25,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 5,
+        "leads_target": 1250,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 200000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 40,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 6,
+        "leads_target": 1500,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 250000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 50,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 7,
+        "leads_target": 1750,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 300000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 75,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0
+      },
+      {
+        "week": 8,
+        "leads_target": 2000,
+        "leads_actual": 0,
+        "leads_percentage": 0.0,
+        "revenue_target": 400000,
+        "revenue_actual": 0,
+        "revenue_percentage": 0.0,
+        "clients_target": 100,
+        "clients_actual": 0,
+        "clients_percentage": 0.0,
+        "overall_completion": 0.0
+      }
+    ],
+    "pipeline_value": {
+      "pipeline_value": {
+        "new_lead": {
+          "count": 2,
+          "value": 10499.5
+        },
+        "contacted": {
+          "count": 0,
+          "value": 0
+        },
+        "qualified": {
+          "count": 0,
+          "value": 0
+        },
+        "proposal_sent": {
+          "count": 0,
+          "value": 0
+        },
+        "negotiating": {
+          "count": 0,
+          "value": 0
+        },
+        "closed_won": {
+          "count": 3,
+          "value": 5948.7
+        },
+        "closed_lost": {
+          "count": 0,
+          "value": 0
+        },
+        "follow_up_required": {
+          "count": 0,
+          "value": 0
+        }
+      },
+      "weighted_pipeline": 10499.5,
+      "next_month_forecast": 3149.85
+    },
+    "current_week": 8,
+    "service_pricing": {
+      "family_plan": {
+        "name": "Family Protection Plan",
+        "price": 999,
+        "monthly": true,
+        "target_clients": 70
+      },
+      "smb_plan": {
+        "name": "Small Business Security",
+        "price": 4999,
+        "monthly": true,
+        "target_clients": 25
+      },
+      "fraud_recovery": {
+        "name": "Fraud Recovery Service",
+        "price": 2500,
+        "monthly": false,
+        "target_clients": 15
+      },
+      "corporate_workshop": {
+        "name": "Corporate Security Workshop",
+        "price": 25000,
+        "monthly": false,
+        "target_clients": 4
+      }
+    },
+    "last_updated": "2025-10-06T19:19:55.604367"
+  },
+  "last_saved": "2025-10-06T19:19:55.604368"
+}
